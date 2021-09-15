@@ -52,7 +52,7 @@ def setRayParam(bi, bj, fi, fj):
 def boundFix(nNode, Node):
     for i in range(nNode):
         if (Node[i][0] == 1):
-            ops.fix(i+1, *[1,1])
+            ops.fix(i+1, *[1,1,1])
     return None
 
 def boundVS(nNode, Node, idmEle, idmNode, vsDic):
